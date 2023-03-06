@@ -27,13 +27,13 @@ proxsi=open('socksku.txt','r').read().splitlines()
 for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['7.0','8.1.0','9','10','11','12'])
-	c='Mi A3 Build/QKQ1.190910.002; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	c='Redmi 4A Build/N2G47H)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4883.2'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 OPR/52.2.2254.54723'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	usragent.append(uakuh)
 	
